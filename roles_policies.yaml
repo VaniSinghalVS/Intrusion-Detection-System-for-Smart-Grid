@@ -1,0 +1,5 @@
+roles:
+  "127.0.0.1": control
+  "192.168.1.10": meter   # example
+whitelist:
+  control_commands_from: ["127.0.0.1"]
